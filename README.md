@@ -14,6 +14,13 @@ This repository contains OpenGL-based computer graphics programming exercises an
 │   ├── lineGraph.cpp  # Interactive line graph with colored points
 │   ├── midpointcircle.cpp # Midpoint Circle Drawing Algorithm
 │   └── piechart.cpp   # Pie chart visualization
+├── lab3/              # Lab 3 implementations
+│   ├── 2D.cpp         # 2D transformations and geometry
+│   └── midpoint.cpp   # Enhanced midpoint algorithms
+├── lab4/              # Lab 4 implementations
+│   ├── CS.cpp         # Cohen-Sutherland line clipping
+│   ├── LB.cpp         # Liang-Barsky line clipping
+│   └── SHP.cpp        # Sutherland-Hodgman polygon clipping
 ```
 
 ## Features
@@ -30,4 +37,17 @@ This repository contains OpenGL-based computer graphics programming exercises an
 - **Interactive Visualizations**:
   - Line graphs with colored data points
   - Pie charts for data representation
-# Graphics
+
+### Lab 3
+
+- **2D Transformations**: Translation, rotation, scaling, and shearing operations
+- **Geometric Operations**: Advanced 2D geometry manipulation
+- **Enhanced Algorithms**: Improved midpoint techniques for complex shapes
+
+### Lab 4
+
+- **Line Clipping Algorithms**:
+  - Cohen-Sutherland algorithm for efficient line clipping
+  - Liang-Barsky algorithm for parametric line clipping
+- **Polygon Clipping**: Sutherland-Hodgman polygon clipping algorithm
+- **Windowing Operations**: Viewport and window management techniques
