@@ -56,8 +56,8 @@ This repository contains OpenGL-based computer graphics programming exercises an
 - **Windowing Operations**: Viewport and window management techniques
 
 ### Lab 5
-3D Transformations:
 
--**Translation, rotation, shearing and scaling in 3D
+-**3D Transformations:
+   -Translation, rotation, shearing and scaling in 3D
 -**3D Orthographic Projection:Parallel projection onto view planes
 ```
