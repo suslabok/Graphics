@@ -5,23 +5,26 @@ This repository contains OpenGL-based computer graphics programming exercises an
 ## Project Structure
 
 ```
-├── lab1/              # Lab 1 implementations
-│   ├── resolution.cpp # Screen resolution utilities
-│   └── sushma.cpp     # Basic graphics operations
-├── lab2/              # Lab 2 implementations
-│   ├── BLA.cpp        # Bresenham's Line Algorithm
-│   ├── DDA.cpp        # Digital Differential Analyzer
-│   ├── lineGraph.cpp  # Interactive line graph with colored points
+├── lab1/                  # Lab 1 implementations
+│   ├── resolution.cpp     # Screen resolution utilities
+│   └── sushma.cpp         # Basic graphics operations
+├── lab2/                  # Lab 2 implementations
+│   ├── BLA.cpp            # Bresenham's Line Algorithm
+│   ├── DDA.cpp            # Digital Differential Analyzer
+│   ├── lineGraph.cpp      # Interactive line graph with colored points
 │   ├── midpointcircle.cpp # Midpoint Circle Drawing Algorithm
-│   └── piechart.cpp   # Pie chart visualization
-├── lab3/              # Lab 3 implementations
-│   ├── 2D.cpp         # 2D transformations and geometry
-│   └── midpoint.cpp   # Enhanced midpoint algorithms
-├── lab4/              # Lab 4 implementations
-│   ├── CS.cpp         # Cohen-Sutherland line clipping
-│   ├── LB.cpp         # Liang-Barsky line clipping
-│   └── SHP.cpp        # Sutherland-Hodgman polygon clipping
-```
+│   └── piechart.cpp       # Pie chart visualization
+├── lab3/                  # Lab 3 implementations
+│   ├── 2D.cpp             # 2D transformations and geometry
+│   └── midpoint.cpp       # Enhanced midpoint algorithms
+├── lab4/                  # Lab 4 implementations
+│   ├── CS.cpp             # Cohen-Sutherland line clipping
+│   ├── LB.cpp             # Liang-Barsky line clipping
+│   └── SHP.cpp            # Sutherland-Hodgman polygon clipping
+├── lab5/                  # Lab 5 implementations
+│   ├── projection.cpp     # 3D Orthographic Projection
+│   └── transformation.cpp # 3D transformation operations
+
 
 ## Features
 
@@ -51,3 +54,10 @@ This repository contains OpenGL-based computer graphics programming exercises an
   - Liang-Barsky algorithm for parametric line clipping
 - **Polygon Clipping**: Sutherland-Hodgman polygon clipping algorithm
 - **Windowing Operations**: Viewport and window management techniques
+
+### Lab 5
+3D Transformations:
+
+-**Translation, rotation, shearing and scaling in 3D
+-**3D Orthographic Projection:Parallel projection onto view planes
+```
